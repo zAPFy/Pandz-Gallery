@@ -1,0 +1,78 @@
+.Collage{
+
+    /*This is where you set the padding you want between the images*/
+    padding:0px;
+
+}
+.Collage img{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    vertical-align:bottom;
+    opacity:1;
+
+    /*This is where you set the border you want for the image*/
+    border:0;
+}
+
+/* In this example, this is the main item being resized */
+.Image_Wrapper{
+    /* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
+    opacity:0;
+ 
+}
+.Caption{
+    font-size:14px;
+    font-weight:normal;
+}
+.Caption_Content{
+    color:#FFF;
+    padding:10px;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ }
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+ }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+ }
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+ }
+.slideshow-gallery {
+	padding-bottom: 24px;
+	padding-bottom: 1.714285714rem;
+}
+.slideshow-gallery .gallery {
+	width: 100% !important;
+	height: auto !important;
+	padding-bottom: 24px;
+	padding-bottom: 1.714285714rem;
+}
+.slideshow-gallery .gallery-item {
+	width: 100% !important;
+	height: auto !important;
+	margin: 0;
+}
+.slideshow-gallery .gallery-item img {
+	width: 100% !important;
+	height: auto !important;
+}
